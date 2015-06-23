@@ -1,6 +1,8 @@
 FROM centos:latest
 FROM java:latest
 
+MAINTAINER Dr. Doom doom@dev-ops.de
+
 ENV CONFLUENCE_VERSION 5.7.1
 ENV CONFLUENCE_HOME /opt/confluence-home
 ENV HOME /opt/confluence-home
